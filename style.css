@@ -10,6 +10,21 @@
     padding: 0px 1rem;
 }
 
+#titulo{
+  text-align: center;
+  padding: 1rem 10px;
+  font-size: 22px;
+  font-family: cursive;
+  color:crimson;
+}
+
+#subtitulo{
+text-align: center;
+font-size: 18px;
+font-family:sans-serif;
+
+}
+
 i{
     transform: scale(1.3);
 }
@@ -20,7 +35,7 @@ i{
 
 #box1{
     width: 100%;
-    height:400px;
+    height:500px;
     background-color: #ccc;
     border-radius:0% 0% 50% 70% / 60% 90% 0% 40%;
 }
@@ -30,4 +45,19 @@ i{
     justify-content:space-between;
     padding:1rem 10px;
     gap: 6px;
+}
+
+#info{
+    margin: 1rem 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#info>div>img{
+    background-color: white;
+    padding: 12px; 
+    border-radius: 20px;
+}
+#info>div>p{
+    text-align: center;
 }
