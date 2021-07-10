@@ -1,10 +1,13 @@
 *{margin:0px; padding:0px; box-sizing: border-box;}
+body{
+    background-color: coral;
+}
 
 #head{
     display: flex;
     width: 100%;
     height: 75px;
-    background-color: aqua;
+    background-color:coral;
     justify-content: space-between;
     align-items: center;
     padding: 0px 1rem;
@@ -13,16 +16,16 @@
 #titulo{
   text-align: center;
   padding: 1rem 10px;
-  font-size: 22px;
+  font-size: 17px;
   font-family: cursive;
-  color:crimson;
+  color:black;
 }
 
 #subtitulo{
 text-align: center;
-font-size: 18px;
+font-size: 14px;
 font-family:sans-serif;
-
+margin: 1rem 0px;
 }
 
 i{
@@ -31,12 +34,13 @@ i{
 
 #lacos-da-mari{
    font-size: 20px;
+   font-family:cursive;
 }
 
 #box1{
     width: 100%;
-    height:490px;
-    background-color: #ccc;
+    height:520px;
+    background-image: url(imagens/fundo.jpg);
     border-radius:0% 0% 50% 70% / 60% 90% 0% 40%;
 }
 
@@ -47,8 +51,13 @@ i{
     gap: 6px;
 }
 
+#part-fotos>div>img{
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
+}
+
 #info{
-    margin: 1rem 0px;
+    margin: 1.8rem 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -57,8 +66,51 @@ i{
     background-color: white;
     padding: 12px; 
     border-radius: 20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
 }
 #info>div>p{
     text-align: center;
+}
+
+#info-redes,#info-tiara,#info-lacos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#box2{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+h3{
+    font-size: 20px;
+    margin:1.5rem auto;
+}
+
+.sobre{
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ margin: .8rem auto;
+}
+
+#texto{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin-bottom: 3rem;
+ color:white;
+}
+
+#texto2>p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0 3px;
+    color: white;
 }
 
