@@ -17,3 +17,17 @@ i{
 #lacos-da-mari{
    font-size: 20px;
 }
+
+#box1{
+    width: 100%;
+    height:400px;
+    background-color: #ccc;
+    border-radius:0% 0% 50% 70% / 60% 90% 0% 40%;
+}
+
+#part-fotos{
+    display: flex;
+    justify-content:space-between;
+    padding:1rem 10px;
+    gap: 6px;
+}
