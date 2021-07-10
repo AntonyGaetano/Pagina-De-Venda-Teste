@@ -1,0 +1,19 @@
+*{margin:0px; padding:0px; box-sizing: border-box;}
+
+#head{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+i{
+    transform: scale(1.3);
+}
+
+#lacos-da-mari{
+   font-size: 20px;
+}
