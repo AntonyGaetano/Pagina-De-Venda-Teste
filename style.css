@@ -80,8 +80,6 @@ i{
 }
 
 
-
-
 #box2{
     width: 100%;
     display: grid;
@@ -113,4 +111,15 @@ h3{
     padding: 0 3px;
     color: white;
 }
+
+#LACOS{
+width: 100%;
+height: max-content;
+padding: 10px 0px;
+background-color: #ccc;
+position: absolute;
+opacity: 1;
+margin-top: -20px;
+}
+
 
