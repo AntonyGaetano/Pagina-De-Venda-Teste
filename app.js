@@ -1,4 +1,4 @@
-i = 1;
+/*i = 1;
 function Slide(){
     var div1 = document.getElementById("img-Laços");
     var div2 = document.getElementById("img-Tiara");
@@ -12,4 +12,4 @@ function Add(){
     
 }
 
-window.addEventListener("load",Add);
+window.addEventListener("load",Add); */
