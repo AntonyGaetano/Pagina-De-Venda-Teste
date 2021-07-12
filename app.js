@@ -17,9 +17,25 @@ function Slide(){
     }
 }
 
+var cont = 0;
+function Menu(){
+    var menu = document.getElementById("Menu-total");
+
+    if(cont == 0){
+    menu.style.display="block";
+    cont = 1;
+    }
+    else{
+    menu.style.display="none"
+    cont = 0;
+    }
+}
+
+document.getElementById("fecharmenu").addEventListener("click",Menu);
+document.getElementById("abrirmenu").addEventListener("click",Menu);
+
 function Add(){
    setInterval(Slide,2500);
-    
 }
 
 window.addEventListener("load",Add); 

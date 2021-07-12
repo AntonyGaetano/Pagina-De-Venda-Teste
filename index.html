@@ -11,14 +11,13 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
-    <script src="app.js"></script>
 
     <title>Document</title>
 </head>
 <body>
     
     <section id="head">
-        <i class="material-icons">
+        <i class="material-icons" id="abrirmenu">
             menu</i>
 
         <h5 id="lacos-da-mari">Laços Da Mari</h5>
@@ -27,14 +26,16 @@
             email  </i>
    </section>
 
-<div>
+<div id="Menu-total">
    <section id="menu">
-       <head id="nav-head">
-           <img src="info/laco.png" width="20px">
+       <head >
+           <img src="info/laco.png" width="40px" height="40px">
 
-           <div>Laços Da Mari</div>
+           <div>
+            <h5> Laços Da <br> Mari </h5>
+            </div>
 
-           <i class="material-icons">
+           <i class="material-icons" id="fecharmenu">
             clear  </i>
        </head>
    </section>
@@ -43,9 +44,29 @@
             
        <nav id="nav">
            <ul>
-              <li>Entrar Em Contato</li>
-              <li>Configuração</li>
-              <li>Localização</li>
+              <li>
+                  <div>
+                  <img src="info/atendimento.png" width="30px">
+                  <p>
+                  Entrar Em Contato </p>
+                </div>
+            </li>
+
+            <li>
+              <div>
+                <img src="info/configuracao.png" width="30px"> 
+                <p>
+                Configuração </p>
+            </div>
+            </li>
+
+            <li>
+              <div>
+                <img src="info/sobre.png" width="30px">
+                <p>
+                Sobre</p>
+              </div>
+            </li>
            </ul>
        </nav> 
    </section>
@@ -121,5 +142,7 @@
        </div>
    </section>
 
+
+   <script src="app.js"></script>
 </body>
 </html>

@@ -164,7 +164,6 @@ a{
     background-size: cover;
     transition: 2.4s ;
 }
-
 #menu{
     position: absolute;
     width: 100%;
@@ -173,8 +172,63 @@ a{
     justify-content:space-between;  
     top: 0;
     height: max-content;
-    padding: 2rem 1.5rem;
+    padding: 1.6rem 1.5rem;
     background-color: white;
-
+    align-items: center;
 }
+#menu2{
+    margin-top: 3.4rem;
+    border: 1px solid;
+    height: max-content;
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0px;
+    background-color: crimson;
+}
+ul > li{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+li{display:grid;}
+
+
+#menu > div{
+ background-color: crimson;
+ padding: 1rem;
+ border-radius: 50%;
+ border:2px solid black
+}
+
+#menu> div > h5{
+font-size: 16px;
+text-align: center;
+font-family: cursive;
+color:white;
+}
+
+#nav > ul > li > div{
+    display: flex;
+    gap:.7rem;
+    padding: 0px 1rem;
+    align-items: center;
+}
+
+#nav > ul > li > div > p{
+    font-family: cursive;
+    font-weight: 700;
+    color:white;
+}
+
+#Menu-total{
+    display: none;
+    transition: all;
+}
+
+#fecharmenu, #abrirmenu:hover{
+    cursor: pointer;
+}
+
+
+
+
 
