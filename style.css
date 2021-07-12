@@ -228,6 +228,34 @@ color:white;
     cursor: pointer;
 }
 
+#box1_2{
+    width: 100%;
+    height: max-content;
+    border: 1px solid;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1_2 > div{
+    width: max-content;
+    height: max-content;
+    border: 1px solid;
+   
+}
+
+#tela1{
+    display: flex;
+    padding: 1rem;
+    gap:.5rem;
+}
+
+#descricao{
+    text-align: center;
+    
+}
 
 
 
