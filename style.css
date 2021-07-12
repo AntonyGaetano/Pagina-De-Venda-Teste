@@ -16,20 +16,25 @@ body{
 #titulo{
   text-align: center;
   padding: 1rem 10px;
-  font-size: 17px;
+  font-size: 19px;
   font-family: cursive;
-  color:black;
+  color:coral;
+
 }
 
 #subtitulo{
 text-align: center;
-font-size: 14px;
-font-family:sans-serif;
-margin: 1rem 0px;
+font-size: 20px;
+font-weight:bolder;
+color:coral;
+font-family: 'Indie Flower', cursive;
+margin-top: 1.9rem;
+margin-bottom: 1rem;
 }
 
 i{
     transform: scale(1.3);
+  
 }
 
 #lacos-da-mari{
@@ -39,9 +44,11 @@ i{
 
 #box1{
     width: 100%;
-    height:480px;
+    height:590px;
     background-image: url(imagens/fundo.jpg);
     border-radius:0% 0% 50% 70% / 60% 90% 0% 40%;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 1px black;
 }
 
 #part-fotos{
@@ -57,7 +64,7 @@ i{
 }
 
 #info{
-    margin: 1.8rem 0px;
+    margin: 1.4rem 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -72,6 +79,8 @@ i{
 }
 #info>div>p{
     text-align: center;
+    color: brown;
+    font-weight: 700;
 }
 
 #info-redes,#info-tiara,#info-lacos{
@@ -89,6 +98,7 @@ i{
 h3{
     font-size: 20px;
     margin:1.5rem auto;
+    font-family: 'Manrope', sans-serif;
 }
 
 .sobre{
@@ -112,6 +122,28 @@ h3{
     color: white;
 }
 
+.whats{
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: brown;
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    width: 80%;
+    margin: .4rem auto;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px black;
+}
 
+a{
+    text-decoration: none;
+}
 
 
