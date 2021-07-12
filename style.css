@@ -120,6 +120,7 @@ h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 0 3px;
     color: white;
+    line-height: 25px;
 }
 
 .whats{
@@ -146,4 +147,21 @@ a{
     text-decoration: none;
 }
 
+#img-Lacos{
+    background-image: url(imagens/lacos0.jpg);
+    width: 155px;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s ;
+}
+
+#img-Tiara{
+    background-image: url(imagens/tiara0.jpg);
+    width: 155px;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2.4s ;
+}
 
