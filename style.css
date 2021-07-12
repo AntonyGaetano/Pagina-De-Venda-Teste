@@ -165,3 +165,16 @@ a{
     transition: 2.4s ;
 }
 
+#menu{
+    position: absolute;
+    width: 100%;
+    border: 1px solid;
+    display: flex; 
+    justify-content:space-between;  
+    top: 0;
+    height: max-content;
+    padding: 2rem 1.5rem;
+    background-color: white;
+
+}
+
