@@ -38,26 +38,26 @@ function Add(){
    setInterval(Slide,2500);
 }
 
-vector = [[],[],[]];
-vector[[0],[0],[0]] = "imagens/lacos1.jpg";
-vector[[0],[0],[1]] = "Valor: 15 reais";
-vector[[0],[0],[2]] = "Produto feio a mão, com duração de 20 minutos";
+vectorL = [[],[],[]];
+vectorL[[0],[0]] = "imagens/lacos0.jpg";
+vectorL[[0],[1]] = "Valor: R$15";
+
 
 Tela();
-var i = 0;
-var j = 0;
-var k = 0;
 
 function Tela(){
+
+var i = 0;
+var j = 0;
+
  var tela_foto = document.getElementById("tela-foto");
  var valor = document.getElementById("dados");
- var descri = document.getElementById("descricao");
 
- tela_foto.style.backgroundImage="url("+vector[[i],[j],[0]]+")";
+ tela_foto.style.backgroundImage="url("+vectorL[[i],[j]]+")";
 
- valor.innerHTML = vector[[0],[0],[1]];
+ valor.innerHTML = vectorL[[i],[i],[j+1]];
 
- descri.innerHTML = vector[[0],[0],[2]];
+ 
 }
 
 window.addEventListener("load",Add); 

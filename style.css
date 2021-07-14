@@ -234,16 +234,25 @@ color:white;
     border: 1px solid;
     display: flex;
     gap: 1rem;
-    padding: 1rem 6px;
+    padding: 2.8rem 6px;
     align-items: center;
     justify-content: center;
+}
+
+#box1_2{
+    background-image: url(/imagens/fundo2.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
 }
 
 #box1_2 > div{
     width: max-content;
     height: max-content;
     border: 1px solid;
-   
+}
+
+#tela{
+    background-color:dodgerblue;
 }
 
 #tela1{
@@ -251,12 +260,22 @@ color:white;
     padding: 1rem;
     gap:.5rem;
     align-items: center;
-    
+}
+
+#dados{
+ font-size: 20px;
+ text-align:center;
+ color: white;
 }
 
 #descricao{
-    text-align: center;
-    
+     text-align: center;
+}
+
+#descricao > button{
+padding: 8px;
+margin-bottom: 9px;
+border-radius: 5px;
 }
 
 #tela-foto{
@@ -264,6 +283,7 @@ color:white;
     height: 120px;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
 }
 
 
