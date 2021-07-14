@@ -34,30 +34,41 @@ function Menu(){
 document.getElementById("fecharmenu").addEventListener("click",Menu);
 document.getElementById("abrirmenu").addEventListener("click",Menu);
 
+document.getElementById("info-lacos").addEventListener("click",ChamaTela);
+
 function Add(){
    setInterval(Slide,2500);
 }
 
-vectorL = [[],[],[]];
-vectorL[[0],[0]] = "imagens/lacos0.jpg";
-vectorL[[0],[1]] = "Valor: R$15";
+function ChamaTela(){
+    var telaT = document.getElementById("box1_2");
+    telaT.style.display="flex";
+    telaT.style.marginTop="-75px"
+}
 
+var k = 0;
 
-Tela();
-
-function Tela(){
-
-var i = 0;
-var j = 0;
+function Tela(num){
 
  var tela_foto = document.getElementById("tela-foto");
- var valor = document.getElementById("dados");
 
- tela_foto.style.backgroundImage="url("+vectorL[[i],[j]]+")";
+  if(num == 1){
+    tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
+    k++;
 
- valor.innerHTML = vectorL[[i],[i],[j+1]];
+   if(k == 5){
+    k = 0; 
+   }
+ }
 
- 
+ else{
+    tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
+    k--;
+
+   if(k == 0){
+    k = 4; 
+   } 
+ }
 }
 
 window.addEventListener("load",Add); 

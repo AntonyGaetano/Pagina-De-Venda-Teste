@@ -240,19 +240,21 @@ color:white;
 }
 
 #box1_2{
-    background-image: url(/imagens/fundo2.jpg);
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-color: #11daa1;
+    display: none;
 }
 
 #box1_2 > div{
     width: max-content;
     height: max-content;
-    border: 1px solid;
+    border: 2px solid black;
 }
 
 #tela{
-    background-color:dodgerblue;
+    background-image: url(imagens/fundo2.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    border: 2px solid black;
 }
 
 #tela1{
@@ -262,29 +264,46 @@ color:white;
     align-items: center;
 }
 
-#dados{
- font-size: 20px;
- text-align:center;
- color: white;
-}
 
 #descricao{
-     text-align: center;
+  text-align: center;
 }
 
 #descricao > button{
-padding: 8px;
-margin-bottom: 9px;
-border-radius: 5px;
+  padding: 8px; 
+  margin-bottom: 9px;
+  border-radius: 5px;
+  animation: botao .8s infinite  ;
+  animation-direction: alternate-reverse;
 }
 
 #tela-foto{
-    width: 150px;
-    height: 120px;
+    width: 210px;
+    height: 210px;
+    background-image: url(/imagens/lacos0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black;
+    border: 2px solid black;
 }
+
+@keyframes botao{
+    0%{
+       transform: rotate(-3deg);
+    }
+
+    50%{
+       transform: rotate(0deg);
+    }
+
+    80%{
+   transform: rotate(3deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 
 
 
