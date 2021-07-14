@@ -251,11 +251,19 @@ color:white;
     padding: 1rem;
     gap:.5rem;
     align-items: center;
+    
 }
 
 #descricao{
     text-align: center;
     
+}
+
+#tela-foto{
+    width: 150px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
