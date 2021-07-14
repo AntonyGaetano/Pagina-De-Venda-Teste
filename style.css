@@ -250,6 +250,7 @@ color:white;
     display: flex;
     padding: 1rem;
     gap:.5rem;
+    align-items: center;
 }
 
 #descricao{
