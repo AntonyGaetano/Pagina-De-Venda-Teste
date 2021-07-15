@@ -275,6 +275,7 @@ color:white;
   border-radius: 5px;
   animation: botao .8s infinite  ;
   animation-direction: alternate-reverse;
+  background-color: coral;
 }
 
 #tela-foto{
@@ -304,6 +305,64 @@ color:white;
     }
 }
 
+
+#box1_3{
+    width: 100%;
+    height: max-content;
+    border: 1px solid;
+    display: flex;
+    gap: 1rem;
+    padding: 2.8rem 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1_3{
+    background-color: #f007cc;;
+    display: none;
+}
+
+#box1_3 > div{
+    width: max-content;
+    height: max-content;
+    border: 2px solid black;
+}
+
+#tela_2{
+    background-image: url(imagens/fundo2.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    border: 2px solid black;
+}
+
+#tela2{
+    display: flex;
+    padding: 1rem;
+    gap:.5rem;
+    align-items: center;
+}
+
+
+#descricao2{
+  text-align: center;
+}
+
+#descricao2 > button{
+  padding: 8px; 
+  margin-bottom: 9px;
+  border-radius: 5px;
+  animation: botao .8s infinite  ;
+  animation-direction: alternate-reverse;
+}
+
+#tela-foto2{
+    width: 210px;
+    height: 210px;
+    background-image: url(imagens/tiara0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
 
 
 

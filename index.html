@@ -93,12 +93,12 @@
         <p id="subtitulo">Produto feito a mão, com muito amor. </p>
 
         <div id="info">
-           <div id="info-lacos">
+           <div id="info-lacos" onclick="ChamaTelaLacos()">
                <img src="info/laco.png" width="70px" style="background-color: #11daa1;">
                <p>Laços</p>
            </div>
 
-           <div id="info-tiara">
+           <div id="info-tiara" onclick="ChamaTelaTiara()">
             <img src="info/tiara.png" width="70px" style="background-color:#f007cc;">
             <p>Tiaras</p>
            </div>
@@ -111,7 +111,7 @@
    </section>
 
    <section id="box1_2">
-       <img src="info/antes.png" width="30px" onclick="Tela(0)">
+       <img src="info/antes.png" width="30px" onclick="Tela(0,'laco')">
         <div id="tela">
            <div id="tela1">
                <img id="tela-foto" width="180px">
@@ -122,8 +122,23 @@
            </div>
         </div>
        <img src="info/proximo.png" id="proximo"
-       width="30px" onclick="Tela(1)">
+       width="30px" onclick="Tela(1,'laco')">
    </section>
+
+   <section id="box1_3">
+    <img src="info/antes.png" width="30px" onclick="Tela(2,'tiara')">
+     <div id="tela_2">
+        <div id="tela2">
+            <img id="tela-foto2" width="180px">
+        </div>
+
+        <div id="descricao2">
+              <button>Encomendar Agora</button>
+        </div>
+     </div>
+    <img src="info/proximo.png" id="proximo"
+    width="30px" onclick="Tela(3,'tiara')">
+</section>
 
    <section id="box2">
        <h3>Quem somos nois?</h3>

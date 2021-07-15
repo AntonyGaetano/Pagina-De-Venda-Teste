@@ -1,4 +1,5 @@
-i = j = 1; // Parte do código para fazer as foto ficar alternando assim que a pagina for carregada
+// Parte do código para fazer as foto ficar alternando assim que a pagina for carregada.
+i = j = 1;
 function Slide(){
     var div1 = document.getElementById("img-Lacos");
     var div2 = document.getElementById("img-Tiara");
@@ -33,34 +34,46 @@ function Menu(){
     }
 }
 
-//Essas são as chamadas dos clique nos botão
+//Essas são as chamadas dos clique nos botão.
 
 document.getElementById("fecharmenu").addEventListener("click",Menu);
 document.getElementById("abrirmenu").addEventListener("click",Menu);
 
-document.getElementById("info-lacos").addEventListener("click",ChamaTela);
 
-//Essa parte é para a função slide ser chamada a cada 2.5s
+//Essa parte é para a função slide ser chamada a cada 2.5s.
 function Add(){
    setInterval(Slide,2500);
 }
 
 // Essa função é para abri a tela com o produto, que está configurado no css como none.
-// Ou seja, só pra deixar visivel a div
-function ChamaTela(){
+// Ou seja, só pra deixar visivel a div.
+function ChamaTelaLacos(){
+    document.getElementById("box1_3").style.display="none";
     var telaT = document.getElementById("box1_2");
+        
     telaT.style.display="flex";
     telaT.style.marginTop="-75px"
 }
 
+function ChamaTelaTiara(){
+    document.getElementById("box1_2").style.display="none";
+    var telaT = document.getElementById("box1_3");
+        
+    telaT.style.display="flex";
+    telaT.style.marginTop="-75px"
+    
+}
+
 //Essa função Tela,funciona apartir que o ChamaTela for chamado e tornado flex.
 //Então ela serve para as setas: próximo e antes, para passar as fotos.
-var k = 0;
-function Tela(num){
+var k = 1;
+var l = 1;
+function Tela(num,tipo){
 
  var tela_foto = document.getElementById("tela-foto");
+ var tela_foto2 = document.getElementById("tela-foto2");
 
-  if(num == 1){
+  if(num == 1 && tipo == "laco"){
    
     tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
     k++;
@@ -69,8 +82,7 @@ function Tela(num){
     k = 0; 
    }
  }
-
- else{
+ else if(num == 0 && tipo == "laco"){
    
     tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
     k--;
@@ -78,6 +90,24 @@ function Tela(num){
    if(k == 0){
     k = 4; 
    } 
+ }
+
+ else if(num == 3 && tipo =="tiara"){
+     tela_foto2.style.backgroundImage="url(imagens/tiara"+l+".jpg)";
+     l++;
+    
+     if(l == 6){
+       l= 0; 
+       }
+ }
+
+ else{
+    tela_foto2.style.backgroundImage="url(imagens/tiara"+l+".jpg)";
+    l--;
+
+   if(l == 0){
+    l= 5; 
+   }
  }
 }
 
