@@ -369,11 +369,19 @@ color:white;
         height: max-content;
         border: 1px solid;
         display: none;
+        flex-direction: column;
         gap: 1rem;
-        padding: 2.8rem 6px;
+        padding: 1.8rem 6px;
         align-items: center;
         justify-content: center; 
         background-color: #e4d33a;
+}
+
+#redes-sociais > p{
+font-size: 20px;
+color:black;
+font-family: cursive;
+font-weight: 700;
 }
 
 #redes{
@@ -390,6 +398,8 @@ color:white;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
     gap:1rem;
+    animation: botao .8s infinite  ;
+    animation-direction: alternate-reverse;
 }
 
 #whats{
