@@ -47,21 +47,42 @@ function Add(){
 
 // Essa função é para abri a tela com o produto, que está configurado no css como none.
 // Ou seja, só pra deixar visivel a div.
+
+var contLacos = 0;
 function ChamaTelaLacos(){
     document.getElementById("box1_3").style.display="none";
-    var telaT = document.getElementById("box1_2");
-        
-    telaT.style.display="flex";
-    telaT.style.marginTop="-75px"
-}
 
-function ChamaTelaTiara(){
-    document.getElementById("box1_2").style.display="none";
-    var telaT = document.getElementById("box1_3");
-        
+    var telaT = document.getElementById("box1_2");
+    
+    if(contLacos == 0){
     telaT.style.display="flex";
     telaT.style.marginTop="-75px"
     
+    contLacos = 1;
+    }
+    else{
+    telaT.style.display="none";
+
+    contLacos = 0;
+    }
+}
+
+var contTiara = 0;
+function ChamaTelaTiara(){
+    document.getElementById("box1_2").style.display="none";
+
+    var telaT = document.getElementById("box1_3");
+    if(contTiara == 0){
+        telaT.style.display="flex";
+        telaT.style.marginTop="-75px"
+        
+    contTiara = 1;
+    }
+    else{
+        telaT.style.display="none";
+    
+        contTiara = 0;
+    }
 }
 
 //Essa função Tela,funciona apartir que o ChamaTela for chamado e tornado flex.
