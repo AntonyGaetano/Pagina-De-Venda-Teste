@@ -368,16 +368,18 @@ color:white;
         width: 100%;
         height: max-content;
         border: 1px solid;
-        display: flex;
+        display: none;
         gap: 1rem;
         padding: 2.8rem 6px;
         align-items: center;
         justify-content: center; 
+        background-color: #e4d33a;
 }
 
 #redes{
     display: flex;
-    gap:3rem;
+    gap:1.5rem;
+    padding: 5rem 0;
 }
 
 #redes > div{
@@ -385,6 +387,8 @@ color:white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
     gap:1rem;
 }
 
@@ -392,17 +396,20 @@ color:white;
     background-color: #11daa1;
     padding: 1.2rem;
     border-radius: 16%;
+    color:white;
+   font-family: cursive;
+   font-size: 15px;
 }
 
 #inst{
 
     padding: 1.2rem;
     border-radius: 16%;
-
-     background-color:rgb(235, 71, 104);
-
+     background-color:#f007cc;
+     color:white;
+    font-family: cursive;
+    font-size: 15px;
 }
-
 
 
 

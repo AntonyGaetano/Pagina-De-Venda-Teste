@@ -49,8 +49,10 @@ function Add(){
 // Ou seja, só pra deixar visivel a div.
 var contTiara = 0;
 var contLacos = 0;
+var contRedes = 0;
 function ChamaTelaLacos(){
     document.getElementById("box1_3").style.display="none";
+    document.getElementById("redes-sociais").style.display="none";
 
     var telaT = document.getElementById("box1_2");
     
@@ -64,11 +66,13 @@ function ChamaTelaLacos(){
     telaT.style.display="none";
     contTiara = 0;
     contLacos = 0;
+    contRedes = 0;
     }
 }
 
 function ChamaTelaTiara(){
     document.getElementById("box1_2").style.display="none";
+    document.getElementById("redes-sociais").style.display="none";
 
     var telaT = document.getElementById("box1_3");
     if(contTiara == 0){
@@ -81,6 +85,26 @@ function ChamaTelaTiara(){
         telaT.style.display="none";
         contLacos = 0;
         contTiara = 0;
+        contRedes = 0;
+    }
+}
+
+function ChamaTelaRedes(){
+    document.getElementById("box1_2").style.display="none";
+    document.getElementById("box1_3").style.display="none";
+
+    var telaT = document.getElementById("redes-sociais");
+    if(contRedes == 0){
+        telaT.style.display="flex";
+        telaT.style.marginTop="-75px"
+        
+    contRedes = 1;
+    }
+    else{
+        telaT.style.display="none";
+        contLacos = 0;
+        contTiara = 0;
+        contRedes = 0;
     }
 }
 
