@@ -280,7 +280,7 @@ color:white;
 #tela-foto{
     width: 210px;
     height: 210px;
-    background-image: url(/imagens/lacos0.jpg);
+    background-image: url(imagens/lacos0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;

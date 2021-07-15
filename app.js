@@ -1,4 +1,4 @@
-i = j = 1;
+i = j = 1; // Parte do código para fazer as foto ficar alternando assim que a pagina for carregada
 function Slide(){
     var div1 = document.getElementById("img-Lacos");
     var div2 = document.getElementById("img-Tiara");
@@ -17,6 +17,8 @@ function Slide(){
     }
 }
 
+// Esse cont, é para contar o quanto o menu foi aberto, para o proximo clique ele fechar o menu.
+//Essa função é para abrir e fechar o menu.
 var cont = 0;
 function Menu(){
     var menu = document.getElementById("Menu-total");
@@ -31,28 +33,35 @@ function Menu(){
     }
 }
 
+//Essas são as chamadas dos clique nos botão
+
 document.getElementById("fecharmenu").addEventListener("click",Menu);
 document.getElementById("abrirmenu").addEventListener("click",Menu);
 
 document.getElementById("info-lacos").addEventListener("click",ChamaTela);
 
+//Essa parte é para a função slide ser chamada a cada 2.5s
 function Add(){
    setInterval(Slide,2500);
 }
 
+// Essa função é para abri a tela com o produto, que está configurado no css como none.
+// Ou seja, só pra deixar visivel a div
 function ChamaTela(){
     var telaT = document.getElementById("box1_2");
     telaT.style.display="flex";
     telaT.style.marginTop="-75px"
 }
 
+//Essa função Tela,funciona apartir que o ChamaTela for chamado e tornado flex.
+//Então ela serve para as setas: próximo e antes, para passar as fotos.
 var k = 0;
-
 function Tela(num){
 
  var tela_foto = document.getElementById("tela-foto");
 
   if(num == 1){
+   
     tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
     k++;
 
@@ -62,6 +71,7 @@ function Tela(num){
  }
 
  else{
+   
     tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
     k--;
 
