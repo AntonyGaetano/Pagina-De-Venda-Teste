@@ -47,7 +47,7 @@ function Add(){
 
 // Essa função é para abri a tela com o produto, que está configurado no css como none.
 // Ou seja, só pra deixar visivel a div.
-
+var contTiara = 0;
 var contLacos = 0;
 function ChamaTelaLacos(){
     document.getElementById("box1_3").style.display="none";
@@ -62,12 +62,11 @@ function ChamaTelaLacos(){
     }
     else{
     telaT.style.display="none";
-
+    contTiara = 0;
     contLacos = 0;
     }
 }
 
-var contTiara = 0;
 function ChamaTelaTiara(){
     document.getElementById("box1_2").style.display="none";
 
@@ -80,7 +79,7 @@ function ChamaTelaTiara(){
     }
     else{
         telaT.style.display="none";
-    
+        contLacos = 0;
         contTiara = 0;
     }
 }

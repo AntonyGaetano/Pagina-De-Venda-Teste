@@ -364,6 +364,45 @@ color:white;
     border: 2px solid black;
 }
 
+#redes-sociais{
+        width: 100%;
+        height: max-content;
+        border: 1px solid;
+        display: flex;
+        gap: 1rem;
+        padding: 2.8rem 6px;
+        align-items: center;
+        justify-content: center; 
+}
+
+#redes{
+    display: flex;
+    gap:3rem;
+}
+
+#redes > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+#whats{
+    background-color: #11daa1;
+    padding: 1.2rem;
+    border-radius: 16%;
+}
+
+#inst{
+
+    padding: 1.2rem;
+    border-radius: 16%;
+
+     background-color:rgb(235, 71, 104);
+
+}
+
 
 
 
