@@ -6,13 +6,15 @@ body{
 
 #head{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 85px;
     background-color:coral;
     justify-content: space-evenly;
     align-items: center;
     padding: 0px 1rem;
     color:white;
+    border: 1px solid;
+    margin: auto;
 }
 
 #titulo{
@@ -44,12 +46,13 @@ i{
 
 
 #box1{
-    width: 100%;
+    width: 80%;
     height:820px;
     background-image: url(imagens/fundo.jpg);
     border-bottom: 1px solid black;
     box-shadow: 1px 1px 1px black;
     padding: 1rem 0;
+    margin: auto;
 }
 
 #part-fotos{
@@ -95,11 +98,12 @@ i{
 }
 
 #box2{
-    width: 100%;
+    width: 80%;
     height:max-content;
     padding: 5rem 0px;
     display: grid;
     justify-content: center;
+    margin: auto;
 }
 
 h3{
@@ -180,22 +184,22 @@ a{ text-decoration: none;}
     justify-content:space-evenly;  
     top: 0;
     height: max-content;
-    padding: 1.6rem 1.5rem;
+    padding: 1rem 1.5rem;
     background-color: white;
     align-items: center;
+
 }
 #menu2{
     margin-top: 2.8rem;
     border: 1px solid;
     height: max-content;
     display: flex;
-    justify-content: center;
-    padding:1rem 0px;
+    justify-content: center;;
     background-color: crimson;
 }
 
 ul > li{
- margin: 2rem 0;
+ margin: 1.7rem 0;
 }
 
 li{display:grid;}
@@ -206,7 +210,6 @@ li{display:grid;}
  padding: 1rem;
  border-radius: 50%;
  border:2px solid black;
-
 }
 
 #menu> div > h5{
@@ -219,7 +222,6 @@ color:white;
 #nav > ul > li > div{
     display: flex;
     gap:2rem;
-    padding: 0px 1rem;
     align-items: center;
     cursor: pointer;
 }
@@ -248,7 +250,7 @@ color:white;
 }
 
 #box1_2{
-    width: 100%;
+    width: 80%;
     height: max-content;
     border: 1px solid;
     display: flex;
@@ -256,6 +258,8 @@ color:white;
     padding: 5rem 6px;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    
 }
 
 #box1_2{
@@ -327,14 +331,14 @@ color:white;
 
 
 #box1_3{
-    width: 100%;
+    width: 80%;
     height: max-content;
-    border: 1px solid;
     display: flex;
     gap: 6rem;
     padding: 5rem 6px;
     align-items: center;
     justify-content: center;
+    margin:auto;
 }
 
 #box1_3{
@@ -386,7 +390,7 @@ color:white;
 }
 
 #redes-sociais{
-        width: 100%;
+        width: 80%;
         height: max-content;
         border: 1px solid;
         display: none;
@@ -396,6 +400,7 @@ color:white;
         align-items: center;
         justify-content: center; 
         background-color: #e4d33a;
+        margin: auto;
 }
 
 #redes-sociais > p{
