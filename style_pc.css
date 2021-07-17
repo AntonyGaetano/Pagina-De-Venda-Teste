@@ -1,7 +1,11 @@
 *{margin:0px; padding:0px; box-sizing: border-box;}
 
 body{
-    background-color: coral;
+    background-color: white;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #head{
@@ -13,8 +17,9 @@ body{
     align-items: center;
     padding: 0px 1rem;
     color:white;
-    border: 1px solid;
     margin: auto;
+    border-left:  1px solid black;
+    border-right:  1px solid black;
 }
 
 #titulo{
@@ -49,8 +54,7 @@ i{
     width: 80%;
     height:820px;
     background-image: url(imagens/fundo.jpg);
-    border-bottom: 1px solid black;
-    box-shadow: 1px 1px 1px black;
+    border: 1px solid black;
     padding: 1rem 0;
     margin: auto;
 }
@@ -104,6 +108,7 @@ i{
     display: grid;
     justify-content: center;
     margin: auto;
+    background-color:coral;
 }
 
 h3{
@@ -161,7 +166,8 @@ h3{
     animation-direction: alternate-reverse;
 }
 
-a{ text-decoration: none;}
+a{ text-decoration: none;
+color:white}
 
 #img-Lacos{
     background-image: url(imagens/lacos0.jpg);
@@ -339,6 +345,7 @@ color:white;
     align-items: center;
     justify-content: center;
     margin:auto;
+    border:1px solid black;
 }
 
 #box1_3{
