@@ -1,0 +1,431 @@
+*{margin:0px; padding:0px; box-sizing: border-box;}
+body{
+    background-color: coral;
+}
+
+#head{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color:coral;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+#titulo{
+  text-align: center;
+  padding: 1rem 10px;
+  font-size: 27px;
+  font-family: cursive;
+  color:coral;
+}
+
+#subtitulo{
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+color:coral;
+font-family: 'Indie Flower', cursive;
+margin-top: 1.9rem;
+margin-bottom: 1rem;
+}
+
+i{
+    transform: scale(1.6); 
+}
+
+#lacos-da-mari{
+   font-size: 25px;
+   font-family:cursive;
+}
+
+
+#box1{
+    width: 100%;
+    height:760px;
+    background-image: url(imagens/fundo.jpg);
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 1rem 0;
+}
+
+#part-fotos{
+    display: flex;
+    justify-content:space-evenly;
+    padding:1rem 10px;
+    gap: 6px;
+}
+
+#part-fotos>div>img{
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
+    width: 260px;
+    height: 260px;
+}
+
+#info{
+    margin: 1.4rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info>div>img{
+    background-color: white;
+    padding: 12px; 
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px black;
+    width: 100px;
+    height: 100px;
+}
+#info>div>p{
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#info-redes,#info-tiara,#info-lacos{
+    display: flex;
+    flex-direction: column;
+}
+
+#box2{
+    width: 100%;
+    height:max-content;
+    padding: 5rem 0px;
+    display: grid;
+    justify-content: center;
+}
+
+h3{
+    font-size: 28px;
+    margin:2rem auto;
+    font-family: 'Manrope', sans-serif;
+}
+
+.sobre{
+ display: flex;
+ align-items: center;
+ gap: 2.4rem;
+ margin: .8rem auto;
+}
+
+.sobre > p{
+    font-size: 25px;
+}
+
+#texto{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin-bottom: 1rem;
+ color:white;
+}
+
+#texto2 > p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0 3px;
+    color: white;
+    line-height: 43px;
+    font-size: 25px;
+}
+
+.whats{
+    display: flex;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: brown;
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    width: 20%;
+    margin: 1rem auto;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-size: 24px;
+    box-shadow: 2px 2px 4px black;
+    animation: botao .8s infinite  ;
+   animation-direction: alternate-reverse;
+}
+
+a{ text-decoration: none;}
+
+#img-Lacos{
+    background-image: url(imagens/lacos0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s ;
+}
+
+#img-Tiara{
+    background-image: url(imagens/tiara0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2.4s ;
+}
+#menu{
+    position: absolute;
+    width: 100%;
+    border: 1px solid;
+    display: flex; 
+    justify-content:space-between;  
+    top: 0;
+    height: max-content;
+    padding: 1.6rem 1.5rem;
+    background-color: white;
+    align-items: center;
+}
+#menu2{
+    margin-top: 3.4rem;
+    border: 1px solid;
+    height: max-content;
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0px;
+    background-color: crimson;
+}
+ul > li{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+li{display:grid;}
+
+
+#menu > div{
+ background-color: crimson;
+ padding: 1rem;
+ border-radius: 50%;
+ border:2px solid black
+}
+
+#menu> div > h5{
+font-size: 16px;
+text-align: center;
+font-family: cursive;
+color:white;
+}
+
+#nav > ul > li > div{
+    display: flex;
+    gap:.7rem;
+    padding: 0px 1rem;
+    align-items: center;
+}
+
+#nav > ul > li > div > p{
+    font-family: cursive;
+    font-weight: 700;
+    color:white;
+}
+
+#Menu-total{
+    display: none;
+    transition: all;
+}
+
+#fecharmenu, #abrirmenu:hover{
+    cursor: pointer;
+}
+
+#box1_2{
+    width: 100%;
+    height: max-content;
+    border: 1px solid;
+    display: flex;
+    gap: 1rem;
+    padding: 2.8rem 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1_2{
+    background-color: #11daa1;
+    display: none;
+}
+
+#box1_2 >  div{
+    width: max-content;
+    height: max-content;
+    border: 2px solid black;
+}
+
+#tela{
+    background-image: url(imagens/fundo2.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    border: 2px solid black;
+}
+
+#tela1{
+    display: flex;
+    padding: 1rem;
+    gap:.5rem;
+    align-items: center;
+}
+
+
+#descricao{
+  text-align: center;
+}
+
+#descricao > button{
+  padding: 8px; 
+  margin-bottom: 9px;
+  border-radius: 5px;
+  animation: botao .8s infinite  ;
+  animation-direction: alternate-reverse;
+
+}
+
+#tela-foto{
+    width: 210px;
+    height: 210px;
+    background-image: url(imagens/lacos0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+@keyframes botao{
+    0%{
+       transform: rotate(-3deg);
+    }
+
+    50%{
+       transform: rotate(0deg);
+    }
+
+    80%{
+   transform: rotate(3deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+#box1_3{
+    width: 100%;
+    height: max-content;
+    border: 1px solid;
+    display: flex;
+    gap: 1rem;
+    padding: 2.8rem 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1_3{
+    background-color: #f007cc;;
+    display: none;
+}
+
+#box1_3 > div{
+    width: max-content;
+    height: max-content;
+    border: 2px solid black;
+}
+
+#tela_2{
+    background-image: url(imagens/fundo2.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+    border: 2px solid black;
+}
+
+#tela2{
+    display: flex;
+    padding: 1rem;
+    gap:.5rem;
+    align-items: center;
+}
+
+
+#descricao2{
+  text-align: center;
+}
+
+#descricao2 > button{
+  padding: 8px; 
+  margin-bottom: 9px;
+  border-radius: 5px;
+  animation: botao .8s infinite  ;
+  animation-direction: alternate-reverse;
+}
+
+#tela-foto2{
+    width: 210px;
+    height: 210px;
+    background-image: url(imagens/tiara0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+#redes-sociais{
+        width: 100%;
+        height: max-content;
+        border: 1px solid;
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.8rem 6px;
+        align-items: center;
+        justify-content: center; 
+        background-color: #e4d33a;
+}
+
+#redes-sociais > p{
+font-size: 20px;
+color:black;
+font-family: cursive;
+font-weight: 700;
+}
+
+#redes{
+    display: flex;
+    gap:1.5rem;
+    padding: 5rem 0;
+}
+
+#redes > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    gap:1rem;
+    animation: botao .8s infinite  ;
+    animation-direction: alternate-reverse;
+}
+
+#whats{
+    background-color: #11daa1;
+    padding: 1.2rem;
+    border-radius: 16%;
+    color:white;
+   font-family: cursive;
+   font-size: 15px;
+}
+
+#inst{
+
+    padding: 1.2rem;
+    border-radius: 16%;
+     background-color:#f007cc;
+     color:white;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+
+
