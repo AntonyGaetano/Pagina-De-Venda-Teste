@@ -433,4 +433,11 @@ font-weight: 700;
 }
 
 
+#aviso{
+    display: flex;
+    margin-top: 1rem;
+    border: 1px solid white;
+    flex-direction: colum;
+}
+
 
