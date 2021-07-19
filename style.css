@@ -444,3 +444,9 @@ font-weight: 700;
 }
 
 
+
+
+@media onl screen and (min-device-width: 660px) and (max-device-width: 960px){
+    body {background: blue}
+}
+
