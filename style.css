@@ -155,6 +155,8 @@ h3{
     border: 1px solid black;
     font-size: 18px;
     box-shadow: 2px 2px 4px black;
+    animation: botao .8s infinite;
+    animation-direction: alternate-reverse;
 }
 
 
@@ -188,7 +190,7 @@ h3{
     align-items: center;
 }
 #menu2{
-    margin-top: 3.4rem;
+    margin-top: 3rem;
     border: 1px solid;
     height: max-content;
     display: flex;
@@ -408,28 +410,29 @@ font-weight: 700;
     align-items: center;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
-    gap:1rem;
-    animation: botao .8s infinite  ;
+    animation: botao .8s infinite;
     animation-direction: alternate-reverse;
+    width: 140px;
 }
 
 #whats{
     background-color: #11daa1;
-    padding: 1.2rem;
+    padding: 1rem;
     border-radius: 16%;
     color:white;
-   font-family: cursive;
-   font-size: 15px;
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
 }
 
 #inst{
-
-    padding: 1.2rem;
+    padding: 1rem;
     border-radius: 16%;
-     background-color:#f007cc;
-     color:white;
+    background-color:#f007cc;
+    color:white;
     font-family: cursive;
     font-size: 15px;
+    text-align: center;
 }
 
 
