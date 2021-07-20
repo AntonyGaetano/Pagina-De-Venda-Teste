@@ -119,9 +119,13 @@
    </section>
    
    <div id="aviso">
-    <h3>Olá,a tela do seu celular é pequena para acessar a essa pagina na vertical. Por favor, vire seu celular na horizontal</h3>
+    <div>
+        <img src="info/woman.png" width="90px">
+        <img src="info/ola.png" width="70px">
+    </div>
+    <h3>A tela do seu celular é pequena para acessar a essa página na posição vertical.</h3>
     <img src="info/telefone.png" width="100px">
-    <h4> Vire o celular na horizontal!</h4>
+    <h3> Por favor, vire seu celular na horizontal!</h3>
  </div>  
    
    <!-- Essa section é a tela que aparecerá, quando for clicado no botão lacos, conf. inicialmente como none -->
@@ -343,7 +347,7 @@ function Tela(num,tipo){
     tela_foto.style.backgroundImage="url(imagens/lacos"+k+".jpg)";
     k++;
 
-   if(k == 5){
+   if(k == 10){
     k = 0; 
    }
  }
@@ -353,7 +357,7 @@ function Tela(num,tipo){
     k--;
 
    if(k == 0){
-    k = 4; 
+    k = 9; 
    } 
  }
 
@@ -361,7 +365,7 @@ function Tela(num,tipo){
      tela_foto2.style.backgroundImage="url(imagens/tiara"+l+".jpg)";
      l++;
     
-     if(l == 6){
+     if(l == 10){
        l= 0; 
        }
  }
@@ -371,7 +375,7 @@ function Tela(num,tipo){
     l--;
 
    if(l == 0){
-    l= 5; 
+    l= 9; 
    }
  }
 }
