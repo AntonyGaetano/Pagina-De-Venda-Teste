@@ -44,6 +44,10 @@ i{
     transform: scale(1.6); 
 }
 
+i:hover{
+    color:black;
+}
+
 #lacos-da-mari{
    font-size: 25px;
    font-family:cursive;
@@ -172,6 +176,10 @@ h3{
 
 a{ text-decoration: none;
 color:white}
+
+a:hover{
+    color:black;
+}
 
 #img-Lacos{
     background-image: url(imagens/lacos0.jpg);
